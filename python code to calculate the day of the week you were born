@@ -1,0 +1,8 @@
+x =  int(input('Enter year of birth'))
+y = int(input('Enter month of birth '))
+z = int(input('Enter date of birth'))
+
+D_O_B = datetime.date(x,y,z)
+
+txt= 'you were  born on {: %A,%B,%d,%Y}'    
+print(txt.format(D_O_B))
